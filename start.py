@@ -4,7 +4,7 @@ import websocket
 import pandas as pd
 
 symbol = 'btcbusd'
-socket_futures = 'wss://fstream.binance.com/ws/{}@bookTicker'.format(symbol)
+socket_futures = 'wss://fstream.binance.com/ws/{}@bookTicker'.format(symbol) # visit Binance API docs to see all the streams
 socket_spot = "wss://stream.binance.com:9443/ws/{}@bookTicker".format(symbol)
 
 # Creating lists to store the desired data
